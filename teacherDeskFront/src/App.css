@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+  background-color: rgb(252, 232, 232);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: rgb(252, 232, 232);
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-body {
+  background-color: rgb(252, 232, 232);
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.Header-block {
+  border-radius: 13px;
+  text-align: center;
+
+  justify-content: center;
+  color: rgba(164, 61, 3, 1);
+  background: linear-gradient(
+    rgba(116, 213, 243, 0.53),
+    rgba(194, 31, 220, 0.34)
+  );
+}
+
+.Button {
+  margin: 5px;
+}
+
+.profile-pic {
+  display: inline;
+  margin: 0 auto;
+  margin-left: -25%;
+  height: 100%;
+  width: auto;
+}
+
+.image-cropper {
+  width: 70px;
+  height: 70px;
+  position: initial;
+
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Error {
+  color: rgb(190, 72, 72);
+}
+
+.icon-button {
+  padding: 0px;
+  padding-inline: 0px;
+  border: 0px;
+  max-width: 0px;
+}
+
+.DropdownButton {
+  border-radius: 20px;
+  font-size: 10px;
+  color: rgba(194, 31, 220, 0.34);
+}
+
+.icon-delete-student {
+  width: 20px;
+  height: 20px;
+}
