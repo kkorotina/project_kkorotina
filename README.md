@@ -2,7 +2,7 @@
 
 - Using React.js framework with Bootstrap styling
 - FastAPI
-- PostgreSQL
+- PostgreSQL 14.1-alpine
 
 ## React-Bootstrap
 
